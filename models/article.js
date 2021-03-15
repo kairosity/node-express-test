@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
 
+// A mongoose method that will place new articles directly into the db.
 const articleSchema = new mongoose.Schema({
     title: {
         type: String,
